@@ -1,0 +1,5 @@
+llama_index==0.12.1
+llama_parse==0.5.15
+nest_asyncio==1.6.0
+python-dotenv==1.0.1
+qdrant_client==1.12.1
