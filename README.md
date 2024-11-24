@@ -10,7 +10,7 @@ This repo is a Barebones demo of Qdrant hybrid search running on Qdrant Hybrid C
   * Kustomize Version\: v4.5.4
   * Server Version\: v1.31.0
 4. Minikube v1.34.0
-5. MacOS Ventura Version 13.3, M1 2020
+5. MacOS Ventura v13.3, M1 2020
 
 ### Process
 
