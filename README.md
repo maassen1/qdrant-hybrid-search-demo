@@ -1,6 +1,6 @@
 # qdrant-hybrid-search-demo
 
-This repo is a Barebones demo of Qdrant hybrid search running on Qdrant Hybrid Cloud. The demo loads data from this repo's `data` directory into Qdrant and prompts the user for a question continuously until `exit` is input. 
+This repo is a barebones demo of an application using Qdrant hybrid search running on Qdrant Hybrid Cloud for effieciently obtaining information from PDFs. The demo loads data from this repo's `data` directory into Qdrant and prompts the user for a question continuously until `exit` is input. 
 
 ### Assumptions
 1. Qdrant v1.12.4
