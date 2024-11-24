@@ -16,7 +16,7 @@ This repo is a Barebones demo of Qdrant hybrid search running on Qdrant Hybrid C
 
 The following steps were taken to complete this assessment.
 
-1. Setup Kubernetes cluster via minikube
+1. Setup Kubernetes cluster via minikube on my local machine
 2. Setup Qdrant Hybrid Cloud
 3. Deploy Qdrant cluster on Hybrid Cloud
 4. Follow [Chat With Product PDF Manuals Using Hybrid Search](https://qdrant.tech/documentation/examples/hybrid-search-llamaindex-jinaai/#chat-with-product-pdf-manuals-using-hybrid-search) to create Python application that implements Qdrant Hybrid Search with both Sparse and Dense vectors
