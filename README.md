@@ -11,6 +11,7 @@ This repo is a barebones demo of an application using Qdrant hybrid search runni
   * Server Version\: v1.31.0
 4. Minikube v1.34.0
 5. MacOS Ventura v13.3, M1 2020
+6. Auxiliary features (such as TLS) not necessary for demo. 
 
 ### Process
 
