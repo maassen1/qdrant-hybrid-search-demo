@@ -32,7 +32,7 @@ The following steps were taken to complete this assessment.
 
 ## Iteration after feedback
 
-Below is how I rebuilt my demo using portions of [Build a Hybrid Search Service with FastEmbed and Qdrant](https://qdrant.tech/documentation/beginner-tutorials/hybrid-search-fastembed/#build-a-hybrid-search-service-with-fastembed-and-qdrant) for assistance. I sourced my data set, most of hybrid_searcher.py and load_data.py from this article. My application is a barebones, basic CLI app that asks the user about what they would like to know about the startup space and searches the `startup` data set based on their input.
+Below is how I rebuilt my demo using portions of [Build a Hybrid Search Service with FastEmbed and Qdrant](https://qdrant.tech/documentation/beginner-tutorials/hybrid-search-fastembed/#build-a-hybrid-search-service-with-fastembed-and-qdrant) for assistance. I sourced my data set, most of hybrid_searcher.py and load_data.py from this article. My application (qdrant_only.py) is a barebones, basic CLI app that asks the user about what they would like to know about the startup space and searches the `startup` data set based on their input.
 
 ### Results
 
