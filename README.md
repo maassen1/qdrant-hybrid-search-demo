@@ -28,3 +28,12 @@ The following steps were taken to complete this assessment.
 1. [Qdrant Hybrid Cloud Deployment](https://github.com/maassen1/qdrant-hybrid-search-demo/blob/main/qdrant_cloud_ui.png)
 2. [Local Qdrant UI](https://github.com/maassen1/qdrant-hybrid-search-demo/blob/main/qdrant_localhost_ui.png)
 3. [demo behavior](https://github.com/maassen1/qdrant-hybrid-search-demo/blob/main/main_output.png)
+
+
+## Iteration after feedback
+
+Below is how I rebuilt my demo using portions of [Build a Hybrid Search Service with FastEmbed and Qdrant](https://qdrant.tech/documentation/beginner-tutorials/hybrid-search-fastembed/#build-a-hybrid-search-service-with-fastembed-and-qdrant) for assistance. I sourced my data set, most of hybrid_searcher.py and load_data.py from this article. My application is a barebones, basic CLI app that asks the user about what they would like to know about the startup space and searches the `startup` data set based on their input.
+
+### Results
+
+[demo behavior](https://github.com/maassen1/qdrant-hybrid-search-demo/blob/main/main_output_2.png)
