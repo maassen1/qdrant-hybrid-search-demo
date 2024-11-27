@@ -17,6 +17,9 @@ def main():
 		except:
 			print("You did not enter a valid input, please try again.")
 
+		print("*" * 20)
+
+		# at least one of `alt`, `description`, or `city` should contain `user_input`
 		query_filter = models.Filter(
 	    	should=[
 				models.FieldCondition(
@@ -38,11 +41,11 @@ def main():
 
 		print(f"Here's what I know about startups in the {user_input} space:")
 		print("*" * 20)
-		print("\n")
 		for result in cursor:
 			print(f"Name: {result['name']}")
 			print(f"Description: {result['alt']}")
 			print(f"Located in: {result['city']}")
+			print("*" * 20)
 
 
 if __name__ == "__main__":
