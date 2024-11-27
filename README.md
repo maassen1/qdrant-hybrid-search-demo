@@ -36,4 +36,4 @@ Below is how I rebuilt my demo using portions of [Build a Hybrid Search Service 
 
 ### Results
 
-[demo behavior](https://github.com/maassen1/qdrant-hybrid-search-demo/blob/e7cf77a777f637db325981ed7d2356d306dbc0de/main_output_3.png)
+[demo behavior](https://github.com/maassen1/qdrant-hybrid-search-demo/blob/b2600be7b2ef2232a60035fd58df5dfce2eff44f/main_output_4.png)
