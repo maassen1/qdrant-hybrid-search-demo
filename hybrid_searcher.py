@@ -14,7 +14,7 @@ class HybridSearcher:
         # comment this line to use dense vectors only
         self.qdrant_client.set_sparse_model(self.SPARSE_MODEL)
 
-    def search(self, text: str, query_filter: str) -> list:
+    def search(self, text: str, query_filter) -> list:
         search_result = self.qdrant_client.query(
             collection_name=self.collection_name,
             query_text=text,
